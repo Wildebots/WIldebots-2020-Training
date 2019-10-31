@@ -12,6 +12,7 @@
 package org.usfirst.frc4902.Wildebots2020Training.commands;
 import edu.wpi.first.wpilibj.command.Command;
 import org.usfirst.frc4902.Wildebots2020Training.Robot;
+import org.usfirst.frc4902.Wildebots2020Training.subsystems.DriveTrain;
 
 /**
  *
@@ -42,6 +43,7 @@ public class ArcadeDrive extends Command {
     // Called repeatedly when this Command is scheduled to run
     @Override
     protected void execute() {
+        Robot.driveTrain.drive(Robot.oi.xboxController);
     }
 
     // Make this return true when this Command no longer needs to run execute()
