@@ -1,3 +1,0 @@
-Manifest-Version: 1.0
-Main-Class: org.usfirst.frc4902.Wildebots2020Training.Main
-

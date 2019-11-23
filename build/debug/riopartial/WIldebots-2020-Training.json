@@ -1,9 +1,0 @@
-[
-  {
-    "artifact": "frcJava (in project WIldebots-2020-Training)",
-    "target": "roborio",
-    "debugfile": "frcJava_roborio.debugconfig",
-    "project": "WIldebots-2020-Training",
-    "language": "java"
-  }
-]
