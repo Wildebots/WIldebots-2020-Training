@@ -94,7 +94,7 @@ public class DriveTrain extends Subsystem {
         double getX = xboxController.getX(Hand.kLeft);
         double getY = xboxController.getY(Hand.kLeft);
 
-        differentialDrive.arcadeDrive(getY, getX);
+        differentialDrive.arcadeDrive(-getY, getX );
     }
 
 }

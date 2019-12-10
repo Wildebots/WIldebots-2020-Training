@@ -75,5 +75,10 @@ public class Gripper extends Subsystem {
     public void setSpeed(double x) {
         gripperMotor.set(x);
     }
+
+    public void end() {
+        gripperMotor.set(0.0); // Set the speed to zero first
+        gripperMotor.stopMotor(); // Stop the motor (Deconstructor)       
+    }
 }
 
