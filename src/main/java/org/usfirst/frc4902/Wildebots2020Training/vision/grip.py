@@ -13,7 +13,7 @@ class GripPipeline:
         """
 
         self.__blur_type = BlurType.Median_Filter
-        self.__blur_radius = 1.4414417851078618
+        self.__blur_radius = 1
 
         self.blur_output = None
 
