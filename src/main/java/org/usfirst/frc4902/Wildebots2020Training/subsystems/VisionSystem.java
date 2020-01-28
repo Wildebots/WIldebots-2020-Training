@@ -50,6 +50,8 @@ public class VisionSystem extends Subsystem {
                 return "Red";
             case Yellow:
                 return "Yellow";
+            case Default:
+                return "None";
         }
     }
 
